@@ -1,16 +1,87 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="ie=edge"
+    >
+    <link
+        rel="stylesheet"
+        href="./styles/reset.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./styles/global.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./styles/mobile.css"
+    >
+    <link
+        rel="stylesheet"
+        media="(min-width: 600px)"
+        href="./styles/tablet.css"
+    >
+    <link
+        rel="stylesheet"
+        media="(min-width: 1200px)"
+        href="./styles/desktop.css"
+    >
     <title>devmentor.pl - HTML & CSS: RWD - #03</title>
 </head>
+
 <body>
-    
-    <main class="t">T</main>
-    <header class="p">P</header>
-    <side class="v">V</side>
+
+    <main class="t">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem iste totam molestiae delectus
+            optio at libero provident voluptates veniam doloribus voluptate quis, maxime voluptas, necessitatibus minima
+            sint vero quia, id doloremque earum molestias quasi facere accusamus. Recusandae quaerat quasi aperiam at
+            sit laboriosam suscipit nisi provident, quia ad ratione numquam delectus minus sequi alias ipsam eaque
+            dolores ipsum enim? Vel animi distinctio natus necessitatibus magnam ipsum laboriosam obcaecati hic! Totam
+            cum placeat molestias vero officiis nam laborum iste, laudantium in ad fuga aliquid consequatur voluptate
+            adipisci consequuntur ratione provident! Aliquid, odit! Nam alias accusamus repellat neque perferendis rerum
+            sed officiis, quasi non, nostrum inventore quisquam, facere nesciunt odio rem dignissimos! Iste fugiat velit
+            aliquam sapiente? Natus reiciendis fugit aspernatur doloribus dicta praesentium quisquam quos eos ipsum
+            laborum quasi, deserunt obcaecati neque nostrum expedita provident in eum repudiandae mollitia iure. Et
+            adipisci laboriosam quasi eaque facere saepe ipsam molestiae reprehenderit.</p>
+    </main>
+    <header class="p">
+        <picture>
+            <source
+                media="(min-width: 1200px)"
+                srcset="images/moto-cross-214928_1920.jpg"
+            >
+            <source
+                media="(min-width: 600px)"
+                srcset="images/moto-cross-214928_1280.jpg"
+            >
+            <source srcset="images/moto-cross-214928_640.jpg">
+            <img
+                src="images/moto-cross-214928_1920.jpg"
+                alt="motocross"
+            >
+        </picture>
+    </header>
+    <side class="v">
+        <iframe
+            class="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/kfNTAw-gpY4?si=CznXLWLXLVJua8lK"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+        ></iframe>
+    </side>
 
 </body>
+
 </html>
