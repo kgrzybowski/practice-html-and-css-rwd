@@ -13,4 +13,11 @@
 .nav__list--dropdown {
     display: block;
     position: absolute;
+    display: none;
+    margin: 0;
+    left: 105px;
+}
+
+.nav__item:hover > .nav__list--dropdown {
+    display: block;
 }
